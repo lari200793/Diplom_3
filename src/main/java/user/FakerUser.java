@@ -1,4 +1,4 @@
-package User;
+package user;
 
 import com.github.javafaker.Faker;
 import org.apache.commons.lang3.RandomStringUtils;

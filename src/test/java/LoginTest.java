@@ -1,11 +1,11 @@
-import Page.*;
-import User.FakerUser;
-import User.UserClient;
+import page.*;
+import user.FakerUser;
+import user.UserClient;
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
-import User.User;
+import user.User;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.*;

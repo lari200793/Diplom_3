@@ -1,9 +1,9 @@
-import Page.LoginPage;
-import Page.MainPage;
-import Page.PersonalCabinetPage;
-import User.FakerUser;
-import User.User;
-import User.UserClient;
+import page.LoginPage;
+import page.MainPage;
+import page.PersonalCabinetPage;
+import user.FakerUser;
+import user.User;
+import user.UserClient;
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;

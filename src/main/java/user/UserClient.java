@@ -1,5 +1,5 @@
-package User;
-import Client.Client;
+package user;
+import client.Client;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
@@ -9,7 +9,7 @@ public class UserClient extends Client {
 
     private final String LOGIN_USER = "/api/auth/login";
     private final String DELETE_USER = "/api/auth/user";
-    private final String CREATING_USER = "/api/auth/register";
+    private final String CREATE_USER = "/api/auth/register";
     @Step("login user")
     public Response loginUser(Object object) {
         return given()
@@ -37,7 +37,7 @@ public class UserClient extends Client {
                 .spec(getSpec())
                 .body(object)
                 .when()
-                .post(CREATING_USER);
+                .post(CREATE_USER);
     }
 
 }

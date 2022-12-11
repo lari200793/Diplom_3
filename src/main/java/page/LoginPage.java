@@ -1,4 +1,4 @@
-package Page;
+package page;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
